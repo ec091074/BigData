@@ -1,0 +1,542 @@
+Checking WFAN DB ---------Thu 02/14/2019 14:20:54.09
+
+Total number of table exist in WFAN schema is      981---------Thu 02/14/2019 14:20:54.09
+
+Deletion for WFAN users started at Thu 02/14/2019 14:20:54.09
+
+
+User dropped.
+
+
+User dropped.
+
+
+User dropped.
+
+
+User dropped.
+
+
+User dropped.
+
+
+User dropped.
+
+Creation for WFAN table spaces started at Thu 02/14/2019 14:20:54.09
+
+CREATE TABLESPACE IA_DAT01
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_DAT01' already exists
+
+
+CREATE TABLESPACE IA_DAT02
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_DAT02' already exists
+
+
+CREATE TABLESPACE IA_DAT03
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_DAT03' already exists
+
+
+CREATE TABLESPACE IA_DAT04
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_DAT04' already exists
+
+
+CREATE TABLESPACE IA_DAT05
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_DAT05' already exists
+
+
+CREATE TABLESPACE IA_DAT06
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_DAT06' already exists
+
+
+CREATE TABLESPACE IA_DAT07
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_DAT07' already exists
+
+
+CREATE TABLESPACE IA_DAT08
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_DAT08' already exists
+
+
+CREATE TABLESPACE IA_ETL_DAT01
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_ETL_DAT01' already exists
+
+
+CREATE TABLESPACE IA_ETL_DAT02
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_ETL_DAT02' already exists
+
+
+CREATE TABLESPACE IA_ETL_DAT03
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_ETL_DAT03' already exists
+
+
+CREATE TABLESPACE IA_ETL_IDX01
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_ETL_IDX01' already exists
+
+
+CREATE TABLESPACE IA_ETL_IDX02
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_ETL_IDX02' already exists
+
+
+CREATE TABLESPACE IA_ETL_IDX03
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_ETL_IDX03' already exists
+
+
+CREATE TABLESPACE IA_IDX01
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_IDX01' already exists
+
+
+CREATE TABLESPACE IA_IDX02
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_IDX02' already exists
+
+
+CREATE TABLESPACE IA_IDX03
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_IDX03' already exists
+
+
+CREATE TABLESPACE IA_IDX04
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_IDX04' already exists
+
+
+CREATE TABLESPACE IA_IDX05
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_IDX05' already exists
+
+
+CREATE TABLESPACE IA_IDX06
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_IDX06' already exists
+
+
+CREATE TABLESPACE IA_IDX07
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_IDX07' already exists
+
+
+CREATE TABLESPACE IA_IDX08
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_IDX08' already exists
+
+
+CREATE TABLESPACE "IA_ETL_DAT05"
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_ETL_DAT05' already exists
+
+
+CREATE TABLESPACE "IA_ETL_DAT06"
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_ETL_DAT06' already exists
+
+
+CREATE TABLESPACE "IA_ETL_DAT07"
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_ETL_DAT07' already exists
+
+
+CREATE TABLESPACE "IA_ETL_DAT08"
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_ETL_DAT08' already exists
+
+
+CREATE TABLESPACE "IA_ETL_IDX08"
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_ETL_IDX08' already exists
+
+
+CREATE TABLESPACE "IA_ETL_IDX05"
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_ETL_IDX05' already exists
+
+
+CREATE TABLESPACE "IA_ETL_IDX06"
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_ETL_IDX06' already exists
+
+
+CREATE TABLESPACE "IA_ETL_IDX07"
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_ETL_IDX07' already exists
+
+
+CREATE TABLESPACE "IA_EXT_DAT01"
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_EXT_DAT01' already exists
+
+
+CREATE TABLESPACE "IA_EXT_IDX01"
+*
+ERROR at line 1:
+ORA-01543: tablespace 'IA_EXT_IDX01' already exists
+
+
+CREATE TABLESPACE WFCRPT_UNKNOWN_DAT01
+*
+ERROR at line 1:
+ORA-01543: tablespace 'WFCRPT_UNKNOWN_DAT01' already exists
+
+
+Creation for WFAN table spaces started at Thu 02/14/2019 14:20:54.09
+
+Enter value for logdir: 
+SP2-0546: User requested Interrupt or EOF detected.
+drop user ia cascade
+          *
+ERROR at line 1:
+ORA-01918: user 'IA' does not exist
+
+
+drop user ia_etl cascade
+          *
+ERROR at line 1:
+ORA-01918: user 'IA_ETL' does not exist
+
+
+drop user ia_ext cascade
+          *
+ERROR at line 1:
+ORA-01918: user 'IA_EXT' does not exist
+
+
+drop user WFANMGR cascade
+          *
+ERROR at line 1:
+ORA-01918: user 'WFANMGR' does not exist
+
+
+drop user WFCRPT_Unknown cascade
+          *
+ERROR at line 1:
+ORA-01918: user 'WFCRPT_UNKNOWN' does not exist
+
+
+drop user AMQUERYMGR cascade
+          *
+ERROR at line 1:
+ORA-01918: user 'AMQUERYMGR' does not exist
+
+
+
+User created.
+
+
+User created.
+
+
+User created.
+
+
+User created.
+
+
+User created.
+
+
+User created.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+create role ia_sa
+            *
+ERROR at line 1:
+ORA-01921: role name 'IA_SA' conflicts with another user or role name
+
+
+create role iavw
+            *
+ERROR at line 1:
+ORA-01921: role name 'IAVW' conflicts with another user or role name
+
+
+create role iavws
+            *
+ERROR at line 1:
+ORA-01921: role name 'IAVWS' conflicts with another user or role name
+
+
+create role iamgr
+            *
+ERROR at line 1:
+ORA-01921: role name 'IAMGR' conflicts with another user or role name
+
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+
+Grant succeeded.
+
+
+User altered.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+PL/SQL procedure successfully completed.
+
+
+PL/SQL procedure successfully completed.
+
+not spooling currently
+IA_IA_ETL_IA_EXT_MSTRDB_SOBEYS_8093_ORA12C.DMP file available at C:\Backups\WFAN    Thu 02/14/2019 14:20:54.09
+
+IA_IA_ETL_IA_EXT_MSTRDB_SOBEYS_8093_ORA12C.DMP file already exists at location \\tdb-wfanora03\ORA_DUMP, file replacement started at Thu 02/14/2019 14:20:54.09
+
+C:\Backups\WFAN\IA_IA_ETL_IA_EXT_MSTRDB_SOBEYS_8093_ORA12C.DMP
+1 File(s) copied
+DB import started for IA_IA_ETL_IA_EXT_MSTRDB_SOBEYS_8093_ORA12C.DMP file -------- Thu 02/14/2019 14:20:54.09
+
+Copying import log file from DUMP_DIR ----------Thu 02/14/2019 14:20:54.09
+
+\\tdb-wfanora03\ORA_DUMP\importWFAN-02-14-2019.log
+1 File(s) copied
+Please see importWFAN-02-14-2019.log file for more information.

@@ -1,0 +1,6 @@
+drop user tkcsowner cascade
+          *
+ERROR at line 1:
+ORA-01918: user 'TKCSOWNER' does not exist
+
+
