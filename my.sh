@@ -1,2 +1,3 @@
-echo 'my name'
+myName='Ranjeet Kumar'
+echo $myName
 hive
